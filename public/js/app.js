@@ -12,7 +12,9 @@ var portfolioApp = angular.module('portfolioApp', [
         $routeProvider.when('/home', {templateUrl: 'partials/home.tpl.html', controller: 'HomeController', title: 'Home Page'});
         $routeProvider.when('/about', {templateUrl: 'partials/about.tpl.html', controller: 'AboutController', title: 'About Page'});
         $routeProvider.when('/contact', {templateUrl: 'partials/contact.tpl.html', controller: 'ContactController', title: 'Contact Page'});
-        $routeProvider.when('/portfolio', {templateUrl: 'partials/portfolio.tpl.html', controller: 'PortfolioController', title: 'Portfolio Page'});
+        $routeProvider.when('/property information', {templateUrl: 'partials/property information.tpl.html', controller: 'PropertyInformationController', title: 'Property Information Page'});
+        $routeProvider.when('/blog', {templateUrl: 'partials/blog.tpl.html' , controller: 'BlogController', title: 'Blog Page'});
+
         $routeProvider.otherwise({redirectTo: '/home'});
     }])
     .run(['$location', '$rootScope', 'baseTitle', function ($location, $rootScope, baseTitle) {
@@ -20,3 +22,4 @@ var portfolioApp = angular.module('portfolioApp', [
             $rootScope.title = baseTitle + current.$$route.title;
         });
     }]);
+

@@ -16,10 +16,19 @@ angular.module('portfolioApp.controllers', [])
     .controller('ContactController', ['$scope', function($scope) {
 
     }])
-    .controller('PortfolioController', ['$scope', 'PortfolioListService', function($scope, PortfolioListService) {
-        $scope.portfolioList = {};
 
-        PortfolioListService.success(function(data) {
-            $scope.portfolioList = data;
-        });
-    }]);
+     .controller('BlogController', ['$scope', function($scope) {
+
+    }])
+     .controller('PropertyInformationController', ['$scope', function($scope) {
+
+    }])
+
+
+//    .controller('PortfolioController', ['$scope', 'PortfolioListService', function($scope, PortfolioListService) {
+//        $scope.portfolioList = {};
+//
+//        PortfolioListService.success(function(data) {
+//            $scope.portfolioList = data;
+//        });
+//    }]);
