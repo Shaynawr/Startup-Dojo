@@ -9,122 +9,279 @@ For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap
 /* Global Styles */
 
 html, body {
-  height:100%;
+    height: 100%;
 }
 
 body {
-  padding-top: 50px; /* body padding for fixed top nav */
+    padding-top: 20px; /* body padding for fixed top nav */
 }
 
 .img-home-portfolio,
 .img-customer,
 .portfolio-item {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .tab-pane {
-  margin-top: 15px;
+    margin-top: 15px;
 }
 
 /* Page Sections */
 .section,
 .section-colored {
-  padding: 50px 0;
+    padding: 50px 0;
 }
 
 .section-colored {
-  background-color: #e1e1e1; /* change this to change the background color of a colored section */
+    background-color: #e1e1e1; /* change this to change the background color of a colored section */
 }
 
 .sidebar {
-  margin-top: 40px;
+    margin-top: 40px;
 }
 
 .sidebar ul {
-  border-radius: 5px;
-  padding: 5px;
-  border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #cccccc;
+}
+
+.background-img {
+    height: 400px;
+    width: 1220px;
+    background: url(http://cnya.ro/wp-content/uploads/2013/05/cnya-ro_slide8b_1920x400.jpg) center center no-repeat;
+    background-size: cover
+
 }
 
 /* Half Page Height Carousel Customization */
-.carousel {
-  height: 50%;
+ .carousel {
+    height: 50%;
 }
 
 .item,
 .active,
 .carousel-inner {
-  height: 100%;
+    height: 100%;
 }
 
 .fill {
-  width: 100%;
-  height: 100%;
-  background-position: center;
-  background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
 }
 
 /* Social Icons Styles */
 .list-social-icons {
-  margin-bottom: 45px;
+    margin-bottom: 45px;
 }
 
 .tooltip-social a {
-  text-decoration: none;
-  color: inherit;
+    text-decoration: none;
+    color: inherit;
 }
 
 .facebook-link a:hover {
-  color: #3b5998;
+    color: #3b5998;
 }
 
 .linkedin-link a:hover {
-  color: #007fb1;
+    color: #007fb1;
 }
 
 .twitter-link a:hover {
-  color: #39a9e0;
+    color: #39a9e0;
 }
 
 .google-plus-link a:hover {
-  color: #d14836;
+    color: #d14836;
 }
 
 /* Service Page Styles */
 .service-icon {
-  font-size: 50px;
+    font-size: 50px;
 }
 
 /* 404 Page Styles */
 .error-404 {
-  font-size: 8em;
+    font-size: 8em;
 }
 
 /* Pricing Page Styles */
 .price {
-  font-size: 4em;
+    font-size: 4em;
 }
 
 .price-cents {
-  vertical-align: super;
-  font-size: 50%;
+    vertical-align: super;
+    font-size: 50%;
 }
 
 .price-month {
-  font-size: 35%;
-  font-style: italic;
+    font-size: 35%;
+    font-style: italic;
 }
 
 /* Footer Styles */
 footer {
-  margin: 50px 0;
+    margin: 50px 0;
 }
 
 /* Responsive Styles */
 @media (max-width: 767px) {
 
-.carousel {
-  height: 70%; /* increases the carousel height so it looks good on phones */
-}
+    .carousel {
+        height: 70%; /* increases the carousel height so it looks good on phones */
+    }
 
 }
+
+.input-prepend input.span12 {
+    width: 500px;
+
+}
+
+/*navbar */
+.navbar-inverse {
+    background-color: #FF0000;
+    border-color: #FF0000;
+}
+
+/*info box*/
+.btn-primary {
+    color: white;
+    background-color: #FF0000;
+    border: #FF0000;
+    position: absolute;
+    left: 15px;
+    top: 130px;
+    width: 25%;
+    text-align: center;
+    active-color: red;
+}
+
+[type=submit]:checked ~ label ~ .btn-primary {
+    color: red;
+}
+
+.row-color {
+    color: #FF0000;
+    margin-left: 11px;
+
+}
+
+.row-big {
+    font: 23px normal Futura, sans-serif;
+    color: #FF0000;
+    margin-left: 10px;
+}
+
+.about-us {
+    font: 23px normal Futura, sans-serif;
+    color: #FF0000;
+    margin-left: 10px;
+}
+
+#container {
+    position: absolute;
+    width: 300px;
+    height: 175px;
+    box-shadow: -15px 0px 0px red;
+    background-color: black;
+    margin: 100px;
+
+}
+
+#container-2 {
+    position: absolute;
+    width: 300px;
+    height: 55px;
+    box-shadow: -15px 0px 0px red;
+    background-color: black;
+    margin: 100px;
+}
+
+#container .row {
+    position: relative;
+}
+
+#container .row p {
+    font: 12px normal Futura, sans-serif;
+    color: #f5f5f5;
+    margin: 15px;
+    margin-left: 50px;
+}
+
+.tabs {
+    position: relative;
+    min-height: 200px;
+    clear: both;
+    margin: 25px 35px;
+    text-align: center;
+}
+
+.tab {
+    float: left;
+}
+
+.tab label {
+    background: #808080;
+    padding: 10px;
+    margin-left: -1;
+    position: relative;
+    left: 500px;
+    color: white;
+}
+
+.tab [type=radio] {
+    display: none
+}
+
+.content {
+    position: absolute;
+    top: 28px;
+    left: 0;
+    background: #ffffff;
+    right: 0;
+    bottom: 50;
+    padding: 20px;
+}
+
+[type=radio]:checked ~ label {
+    background: red;
+    border-bottom: 1px solid white;
+    z-index: 2;
+}
+
+[type=radio]:checked ~ label ~ .content {
+    z-index: 1;
+}
+
+.container-3 {
+    text-align: left;
+    display: inline-block;
+    margin: 100px;
+    margin-top: 25px;
+    padding: 0px;
+    border: 0;
+    width: 750px;
+    height: 40;
+
+}
+
+.form-group {
+    float: left;
+    width: 400px;
+    height: 20px;
+    display: inline-block;
+    color: black;
+}
+
+.map {
+    float: right;
+    width: 400px;
+    height: 20px;
+    display: inline-block;
+}
+
