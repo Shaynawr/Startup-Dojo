@@ -50,12 +50,11 @@ body {
     height: 400px;
     width: 1220px;
     background: url(http://cnya.ro/wp-content/uploads/2013/05/cnya-ro_slide8b_1920x400.jpg) center center no-repeat;
-    background-size: cover
-
 }
 
+
 /* Half Page Height Carousel Customization */
- .carousel {
+.carousel {
     height: 50%;
 }
 
@@ -284,4 +283,5 @@ footer {
     height: 20px;
     display: inline-block;
 }
+
 
