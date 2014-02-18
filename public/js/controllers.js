@@ -14,10 +14,12 @@ angular.module('portfolioApp.controllers', [])
 
     }])
     .controller('ContactController', ['$scope','$resource', function ($scope,$resource) {
-         var CreditCard = $resource('http://api.postmarkapp.com/email',
-            {userId: 123, cardId: '@id'}, {
-                charge: {method: 'POST', params: {charge: true}}
+
+        var Mail = $resource('http://api.postmarkapp.com/email',
+            {
+                charge: {method: 'POST', params: {}, headers: {'Access-Control-Allow-Origin': '*'}}
             });
+
         var testmail = {
             "From": "sender@example.com",
             "To": "receiver@example.com",
@@ -33,10 +35,23 @@ angular.module('portfolioApp.controllers', [])
             ]
         }
 
+        var newMail = new Mail({
+            "From": "sender@example.com",
+            "To": "receiver@example.com",
+            "Cc": "copied@example.com",
+            "Bcc": "blank-copied@example.com",
+            "Subject": "Test",
+            "Tag": "Invitation",
+            "HtmlBody": "<b>Hello</b>",
+            "TextBody": "Hello",
+            "ReplyTo": "reply@example.com",
+            "Headers": [
+                { "Name": "CUSTOM-HEADER", "Value": "value" }
+            ]
+        });
 
-        var newCard = new CreditCard({number: '0123'});
-        newCard.name = "Mike Smith";
-        newCard.$save();
+//        newMail.name = "Mike Smith";
+        newMail.$save();
 
     }])
 
