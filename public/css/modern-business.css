@@ -33,7 +33,7 @@ body {
 }
 
 .section-colored {
-    background-color: #e1e1e1;  /*change this to change the background color of a colored section*/
+    background-color: #e1e1e1; /*change this to change the background color of a colored section*/
 }
 
 .sidebar {
@@ -140,41 +140,22 @@ footer {
 
 }
 
-/*navbar */
-.navbar-inverse {
-    background-color: #FF0000;
-    border-color: #FF0000;
-}
-.navbar-nav{
-    padding-left:50px;
-    padding-right: 50px;
-}
-.nav li{
-	padding: 0 60px;
-    /*border-right:1px solid #ddd;*/
-    /*padding-top: 2px;*/
-    /*padding-bottom: 2px;*/
-    /*line-height: 16px*/
-    /**/
-
-}
-
-
-
-
-
-
 /*info box*/
 .btn-primary {
-    color: white;
-    background-color: #FF0000;
-    border: #FF0000;
+    color: red;
+    background-color: #ffffff;
+    border-color: #FF0000;
     position: absolute;
     left: 15px;
     top: 130px;
     width: 25%;
     text-align: center;
     active-color: red;
+}
+
+.btn-primary:hover {
+    background: red;
+    border: white;
 }
 
 [type=submit]:checked ~ label ~ .btn-primary {
@@ -305,5 +286,31 @@ footer {
     display: inline-block;
 }
 
+/*navbar*/
+.navbar-inverse {
+    background-color: #FF0000;
+    border-color: #FF0000;
+
+}
+
+.navbar-nav {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.nav li {
+    padding: 0 60px;
+
+}
+
+.navbar-inverse a:hover {
+    color: red;
+    text-shadow: 0 1px 1px #f74444;
+}
+
+.navbar-inverse li:hover {
+    background: #e50a0a top left repeat;
+}
 
 
