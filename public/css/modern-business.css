@@ -48,9 +48,10 @@ body {
 
 .background-img {
     height: 400px;
-    width: 1220px;
-    background: url(http://cnya.ro/wp-content/uploads/2013/05/cnya-ro_slide8b_1920x400.jpg) center center no-repeat;
+    width: 1320px;
+    /*background: url() center center no-repeat;*/
 }
+
 
 /* Half Page Height Carousel Customization */
 .carousel {
@@ -124,7 +125,10 @@ body {
 /* Footer Styles */
 footer {
     margin: 50px 0;
+    background: #666362;
+    color:white;
 }
+
 
 /* Responsive Styles */
 @media (max-width: 767px) {
@@ -139,6 +143,12 @@ footer {
     width: 500px;
 
 }
+.btn-other{
+    background-color:transparent;
+    color:white;
+    border-color:white;
+    width: 50%;
+}
 
 /*info box*/
 .btn-primary {
@@ -148,7 +158,7 @@ footer {
     position: absolute;
     left: 15px;
     top: 130px;
-    width: 25%;
+    width: 35%;
     text-align: center;
     active-color: red;
 }
@@ -163,7 +173,7 @@ footer {
 }
 
 .row-color {
-    color: #FF0000;
+    color: #3EA99F;
     margin-left: 11px;
 
 }
@@ -179,24 +189,32 @@ footer {
     color: #FF0000;
     margin-left: 10px;
 }
+.home-text{
+    color:#3EA99F;
+    text-align: center;
+}
 
 #container {
     position: absolute;
     width: 250px;
     height: 175px;
-    box-shadow: -15px 0px 0px red;
-    background-color: black;
-    opacity: .7;
+    box-shadow: -15px 0px 0px #3EA99F;
+    background-color: lightgray;
     margin: 100px;
-
+}
+.container-home{
+    color:#ffffff;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 50px;
 }
 
 #container-2 {
     position: absolute;
     width: 250px;
     height: 45px;
-    box-shadow: -15px 0px 0px red;
-    background-color: black;
+    box-shadow: -15px 0px 0px #3EA99F;
+    background-color: lightgray;
     opacity: .7;
     margin: 100px;
 
@@ -207,8 +225,8 @@ footer {
 }
 
 #container .row p {
-    font: 12px normal Futura, sans-serif;
-    color: #f5f5f5;
+    font: 14px normal Futura, sans-serif;
+    color: #666362;
     margin: 15px;
     margin-left: 50px;
 }
@@ -264,9 +282,7 @@ footer {
     display: inline-block;
     margin: 100px;
     margin-top: 25px;
-    padding: 0px;
-    border: 0;
-    width: 750px;
+    width: 765px;
     height: 40;
 }
 
@@ -274,29 +290,29 @@ footer {
     float: left;
     width: 400px;
     height: 20px;
-    display: inline-block;
-    color: black;
-
+    /*display: inline-block;*/
+    color: darkgray;
 }
 
-.map {
+.img {
     float: right;
     width: 400px;
     height: 20px;
-    display: inline-block;
+    /*display: inline-block;*/
 }
 
 /*navbar*/
 .navbar-inverse {
-    background-color: #FF0000;
+    background-color: red;
+    color:white;
     border-color: #FF0000;
-
 }
 
 .navbar-nav {
-    padding-left: 30px;
+    padding-left: 80px;
     padding-right: 30px;
     text-align: center;
+
 }
 
 .nav li {
@@ -311,6 +327,19 @@ footer {
 
 .navbar-inverse li:hover {
     background: #e50a0a top left repeat;
+}
+.container-pricing{
+    background:#3EA99F;
+}
+.panel-title{
+    color: red;
+}
+.main-list-item{
+    color: red;
+}
+.panel-heading{
+    color:#3EA99F;
+    font-size: 25px;
 }
 
 
