@@ -128,6 +128,9 @@ footer {
     background: #666362;
     color:white;
 }
+.footer-color{
+    color: #3EA99F;
+}
 
 
 /* Responsive Styles */
@@ -143,12 +146,7 @@ footer {
     width: 500px;
 
 }
-.btn-other{
-    background-color:transparent;
-    color:white;
-    border-color:white;
-    width: 50%;
-}
+
 
 /*info box*/
 .btn-primary {
@@ -189,25 +187,8 @@ footer {
     color: #FF0000;
     margin-left: 10px;
 }
-.home-text{
-    color:#3EA99F;
-    text-align: center;
-}
 
-#container {
-    position: absolute;
-    width: 250px;
-    height: 175px;
-    box-shadow: -15px 0px 0px #3EA99F;
-    background-color: lightgray;
-    margin: 100px;
-}
-.container-home{
-    color:#ffffff;
-    font-size: 60px;
-    text-align: center;
-    margin-top: 50px;
-}
+
 
 #container-2 {
     position: absolute;
@@ -304,12 +285,11 @@ footer {
 /*navbar*/
 .navbar-inverse {
     background-color: red;
-    color:white;
     border-color: #FF0000;
 }
 
 .navbar-nav {
-    padding-left: 80px;
+    padding-left: 70px;
     padding-right: 30px;
     text-align: center;
 
@@ -318,6 +298,16 @@ footer {
 .nav li {
     padding: 0 60px;
 
+}
+body { padding-top: 20px; }
+#myCarousel .nav a small {
+    display:block;
+}
+#myCarousel .nav {
+	background:#eee;
+}
+#myCarousel .nav a {
+    border-radius:0px;
 }
 
 .navbar-inverse a:hover {
@@ -328,18 +318,11 @@ footer {
 .navbar-inverse li:hover {
     background: #e50a0a top left repeat;
 }
-.container-pricing{
-    background:#3EA99F;
-}
-.panel-title{
-    color: red;
-}
-.main-list-item{
-    color: red;
-}
-.panel-heading{
-    color:#3EA99F;
-    font-size: 25px;
-}
 
 
+.fa-phone{
+    color: red;
+}
+.fa-envelope{
+    color: red;
+}
