@@ -1,0 +1,339 @@
+
+
+.background-img {
+/*    height: 400px;
+    width: 1320px;*/
+    /*background: url() center center no-repeat;*/
+}
+
+/* Footer Styles */
+footer {
+    margin: 50px 0;
+    background: #666362;
+    color: white;
+}
+
+.footer-color {
+    color: #3EA99F;
+}
+
+.btn-primary-custom {
+    color: red;
+    background-color: #ffffff;
+    border-color: #FF0000;
+    border-radius: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: large;
+    active-color: red;
+}
+
+
+
+.btn-primary:hover {
+    background: red;
+    border: white;
+}
+
+[type=submit]:checked ~ label ~ .btn-primary {
+    color: red;
+}
+
+.row-color {
+    color: #3EA99F;
+    margin-left: 11px;
+
+}
+
+.row-big {
+    font: 23px normal Futura, sans-serif;
+    color: #FF0000;
+    margin-left: 10px;
+}
+
+.about-us {
+    font: 23px normal Futura, sans-serif;
+    color: #FF0000;
+    margin-left: 10px;
+}
+
+.container-2 {
+    position: absolute;
+    width: 250px;
+    height: 45px;
+    box-shadow: -15px 0px 0px #3EA99F;
+    background-color: lightgray;
+    opacity: .7;
+    margin: 100px;
+
+}
+
+.container .row {
+    position: relative;
+}
+
+.container .row p {
+    font: 14px normal Futura, sans-serif;
+    color: #666362;
+    margin: 15px;
+    margin-left: 50px;
+}
+
+.tabs {
+    position: relative;
+    min-height: 200px;
+    clear: both;
+    margin-top: 25px;
+    margin-bottom: 200px;
+    text-align: center;
+}
+
+.tab {
+    float: left;
+}
+
+.tab label {
+    background: #808080;
+    padding: 10px;
+    margin-left: -1;
+    position: relative;
+    left: 500px;
+    color: white;
+}
+
+.tab [type=radio] {
+    display: none
+}
+
+.content {
+    position: absolute;
+    top: 28px;
+    margin-left: 50%;
+    background: #ffffff;
+    margin-right: 50%;
+    bottom: 50%;
+    padding: 25px;
+}
+
+[type=radio]:checked ~ label {
+    background: red;
+    border-bottom: 1px solid white;
+    z-index: 2;
+}
+
+[type=radio]:checked ~ label ~ .content {
+    z-index: 1;
+}
+
+.container-3 {
+    text-align: left;
+    display: inline-block;
+    margin: 100px;
+    margin-top: 25px;
+    width: 765px;
+    height: 40;
+}
+
+.form-custom {
+    color: darkgray;
+    border-color: darkgrey;
+    border-radius: 0;
+}
+
+.img {
+    float: right;
+    width: 400px;
+    height: 20px;
+    /*display: inline-block;*/
+}
+
+/*navbar*/
+.navbar-inverse {
+    background-color: red;
+    border-color: #FF0000;
+}
+
+.navbar-nav {
+    padding-left: 70px;
+    padding-right: 30px;
+    text-align: center;
+
+}
+
+.nav li {
+    padding: 0 60px;
+
+}
+
+body {
+    padding-top: 20px;
+}
+
+.myCarousel .nav a small {
+    display: block;
+}
+
+.myCarousel .nav {
+    background: #eee;
+}
+
+.myCarousel .nav a {
+    border-radius: 0px;
+}
+
+.navbar-inverse a:hover {
+    color: red;
+    text-shadow: 0 1px 1px #f74444;
+}
+
+.navbar-inverse li:hover {
+    background: #e50a0a top left repeat;
+}
+
+.fa-phone {
+    color: red;
+}
+
+.fa-envelope {
+    color: red;
+}
+
+.container-pricing {
+    background: #3EA99F;
+    height: 100%;
+}
+
+.panel-title {
+    color: red;
+}
+
+.main-list-item {
+    color: red;
+}
+
+.panel-heading {
+    color: #3EA99F;
+    font-size: 25px;
+}
+
+#container {
+    position: absolute;
+    width: 250px;
+    height: 175px;
+    box-shadow: -15px 0px 0px #3EA99F;
+    background-color: lightgray;
+    margin: 100px;
+}
+
+.container-carousel {
+    background: #3EA99F;
+}
+
+/* carousel */
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px 0px 0px;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control {
+    background: none;
+    color: #ffffff;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+
+.carousel-text {
+    color: white;
+}
+
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li {
+    color: #ffffff;
+}
+
+#quote-carousel .carousel-indicators .active {
+    color: #ffffff;
+}
+
+/* End carousel */
+
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+/**
+  MEDIA QUERIES
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #quote-carousel {
+        margin-bottom: 0;
+        padding: 0 40px 30px 40px;
+        margin-top: 30px;
+    }
+
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) {
+
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;
+    }
+
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.container-large {
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn-other {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    width: 50%;
+}
+
+.home-text {
+    color: #3EA99F;
+    text-align: center;
+}
