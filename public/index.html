@@ -17,6 +17,13 @@
     <script src='lib/angular-resource/angular-resource.js'></script>
     <script src="lib/angular-route/angular-route.js"></script>
 
+    <script>
+         $(document).scroll(function() {
+            $('#menulogo2').toggle($(this).scrollTop()>100)
+            $('#menulogo').toggle($(this).scrollTop()<100)
+         });
+    </script>
+
 </head>
 <body>
 <div class="container">
@@ -26,8 +33,7 @@
             <li class="col-sm-2"><a href="#about">About Us</a></li>
             <li class="col-sm-2 vertical-hr"><a href="#property-information">Property Info</a></li>
             <li class="col-sm-2 vertical-hr hideme">
-                <div class="triangle"></div>
-                SD
+                <img src="images/startup_logo-small.png" class="dropme-tiny" alt=""/>
             </li>
             <li class="col-sm-2 vertical-hr"><a href="#blog">Blog</a></li>
             <li class="col-sm-2 vertical-hr"><a href="#contact">Contact</a></li>
@@ -35,7 +41,14 @@
         </ul>
     </div>
 
-    <a href="#home" class="center"><img src="images/startup_logo.png" class="overlay center" alt=""/></a>
+    <!--<a href="#home" class="center"><img src="images/startup_logo.png" class="overlay center" id="menulogo" alt=""/></a>-->
+    <a href="#home"><div id="menulogo" class="overlay center"></div></a>
+    <a href="#home"><div id="menulogo2" class="overlay center"></div></a>
+    <div class="row">
+        <div class="col-xs-5 pull-left"></div>
+        <div class="col-xs-2 triangle center"></div>
+        <div class="col-xs-5 pull-right"></div>
+    </div>
 </div>
 
 

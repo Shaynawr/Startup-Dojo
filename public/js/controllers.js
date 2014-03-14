@@ -61,7 +61,7 @@ controller('BlogController', ['$scope', function ($scope) {
 }])
     .controller('PropertyInformationController', ['$scope', function ($scope) {
 
-    }])
+    }]);
 
 
 
