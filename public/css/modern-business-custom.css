@@ -12,32 +12,34 @@ footer {
     margin: 50px 0;
     background: #666362;
     color: white;
+    min-height: 250px;
 }
 
 .footer-color {
     color: #3EA99F;
 }
 
+
 .btn-primary-custom {
-    color: red;
+    color:#F04622;
     background-color: #ffffff;
     border-color: #FF0000;
     border-radius: 0;
     padding-left: 20px;
     padding-right: 20px;
     font-size: large;
-    active-color: red;
+    active-color:#F04622;
 }
-
-
-
+.section, .section-colored {
+padding: 80px 0;
+}
 .btn-primary:hover {
-    background: red;
+    background:#F04622;
     border: white;
 }
 
 [type=submit]:checked ~ label ~ .btn-primary {
-    color: red;
+    color:#F04622;
 }
 
 .row-color {
@@ -117,7 +119,7 @@ footer {
 }
 
 [type=radio]:checked ~ label {
-    background: red;
+    background:#F04622;
     border-bottom: 1px solid white;
     z-index: 2;
 }
@@ -133,6 +135,9 @@ footer {
     margin-top: 25px;
     width: 765px;
     height: 40;
+}
+.inblock {
+    display: inline-block;
 }
 
 .form-custom {
@@ -178,7 +183,7 @@ body {
 }
 
 .navbar-inverse a:hover {
-    color: red;
+    color:#F04622;
     text-shadow: 0 1px 1px #f74444;
 }
 
@@ -187,24 +192,22 @@ body {
 }
 
 .fa-phone {
-    color: red;
+    color:#F04622;
+}
+.red{
+    color: #F04622;
 }
 
 .fa-envelope {
-    color: red;
-}
-
-.container-pricing {
-    background: #3EA99F;
-    height: 100%;
+    color:#F04622;
 }
 
 .panel-title {
-    color: red;
+    color:#F04622;
 }
 
 .main-list-item {
-    color: red;
+    color:#F04622;
 }
 
 .panel-heading {
@@ -223,6 +226,7 @@ body {
 
 .container-carousel {
     background: #3EA99F;
+    padding: 35px;
 }
 
 /* carousel */
@@ -349,6 +353,13 @@ background: url(http://placekitten.com/1920/400) center center no-repeat;
     border-radius: 0;
     color: white;
     font-size: 20pt;
+    width: 200px;
+}
+.squared:hover{
+    border-radius: 0;
+    color:#F04622;
+    font-size: 20pt;
+    width: 200px;
 }
 .center{
     display: block;
@@ -383,7 +394,7 @@ color: whitesmoke;
   clear: none;
 }
 .vertical-hr{
-    border-left: 1px solid red;
+    border-left: 1px solid#F04622;
     padding: 0px 0px;
 }
 .hideme{
@@ -414,4 +425,71 @@ a{
     border-top: 80px solid #f5f5f5;
     border-left: 150px solid transparent;
     border-right: 150px solid transparent;
+}
+#icon-info{
+    background-image: url("../images/icon-info.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 100px;
+    width: 100px;
+}
+#icon-about{
+    background-image: url("../images/icon-about.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 100px;
+    width: 100px;
+}
+#icon-contact{
+    background-image: url("../images/icon-contact.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 100px;
+    width: 100px;
+}
+.blockquote{
+    font-size: 17.5px;
+}
+.map{
+    margin-top: 80px;
+}
+.rounded{
+    border-radius: 5px;
+}
+.footermenu{
+    color:white;
+    text-decoration: none;
+}
+.no-deco{
+    list-style: none;
+    margin-top: 10px;
+}
+.dropme{
+    margin-top: 70px;
+}
+.mini-image{
+    width: 100px;
+    height: 100px;
+}
+.nav-hor li{
+    display:inline;
+}
+.dropme-little{
+    margin-top: 50px;
+}
+.bumpUp{
+    margin-top: -90px;
+}
+.greenie:before {
+color: #42AF99;
+content: "\2022";
+font-size: 1.5em;
+padding-right: .25em;
+position: relative;
+top: .1em;
+}
+.greenie{
+    color: #666666;
+    font-size: 18pt;
+    margin-bottom: -10px
 }

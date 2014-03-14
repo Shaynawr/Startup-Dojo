@@ -7,6 +7,7 @@
 
                 <div class="container-large">
                     <br/>
+
                     <h1 class="bebasneue mainh1">STARTUP DOJO</h1>
                     <button type="submit" class="btn btn-other squared">INQUIRE</button>
                 </div>
@@ -22,16 +23,19 @@
 
         <div class="row">
             <div class="col-sm-4 col-xs-6">
+                <div id="icon-info" class="center"></div>
                 <h3 class="center">INFORMATION</h3>
 
                 <p>Check out the property and see what the Startup Dojo is all about.</p>
             </div>
             <div class="col-sm-4 col-xs-6">
+                <div id="icon-about" class="center"></div>
                 <h3 class="center">ABOUT US</h3>
 
                 <p>Meet the team and learn about why we started the Startup Dojo.</p>
             </div>
             <div class="col-sm-4 col-xs-12">
+                <div id="icon-contact" class="center"></div>
                 <h3 class="center">CONTACT</h3>
 
                 <p>Contact us to get more information or schedule a tour.</p>
@@ -43,54 +47,43 @@
 
     </div>
 </div>
-<!-- /.section -->
-<!-- Head tags to include FontAwesome -->
-<head>
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-</head>
+
 
 <div class="container-carousel">
     <div class='row'>
-        <div class='col-md-offset-2 col-md-8'>
-            <div class="carousel slide" data-ride="carousel" id="quote-carousel">
-                <!-- Bottom Carousel Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#quote-carousel" data-slide-to="1"></li>
-                    <!--<li data-target="#quote-carousel" data-slide-to="2"></li>-->
-                </ol>
+        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+            <!-- Bottom Carousel Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#quote-carousel" data-slide-to="1"></li>
+                <!--<li data-target="#quote-carousel" data-slide-to="2"></li>-->
+            </ol>
 
-                <!-- Carousel Slides / Quotes -->
-                <div class="carousel-inner">
+            <!-- Carousel Slides / Quotes -->
+            <div class="carousel-inner">
 
-                    <!-- Quote 1 -->
-                    <div class="item active">
-
-
-                        <div class="center">
-                            <blockquote>
-                                <div class="carousel-text">
-                                    <p>The Dojo is to startups as arrows are to Katniss Everdeen.</p>
-                                </div>
-                            </blockquote>
-                            <small>- Scott Weinert from Comfy</small>
+                <!-- Quote 1 -->
+                <div class="item active">
+                    <div class="center">
+                        <div class="carousel-text">
+                            <p class="blockquote"><i>"The Dojo is to startups as arrows <br/> are to Katniss Everdeen."</i>
+                            </p>
                         </div>
 
+                        <small>- Scott Weinert from Comfy</small>
                     </div>
-                    <!-- Quote 2 -->
-                    <div class="item">
-                        <blockquote>
-                            <div class="center">
-                                <div class="carousel-text">
-                                    <p>Moving into the Dojo was one of the best early decisions I made with
-                                        my
-                                        first startup. Now I'm onto my second and sometimes wish we hadn't
-                                        outgrown the space because of the energy and collaboration. Awesome
-                                        place to get started.</p>
-                                </div>
-                                <small>- Brad Cahoon from Wrapmatch</small>
-                            </div>
-                        </blockquote>
+                </div>
+                <!-- Quote 2 -->
+                <div class="item">
+                    <div class="center">
+                        <div class="carousel-text">
+                            <p class="blockquote"><i>"Moving into the Dojo was one of the best early decisions I made
+                                with
+                                my first startup. Now I'm onto my second and sometimes wish we hadn't
+                                outgrown the space because of the energy and collaboration. Awesome
+                                place to get started."</i></p>
+                        </div>
+                        <small>- Brad Cahoon from Wrapmatch</small>
                     </div>
                 </div>
             </div>
@@ -103,38 +96,44 @@
         <div class="col-lg-12 text-center">
             <h2>Stop by!</h2>
 
-            <div class="home-text">
-                <hr>
-                <h3>Sign up for our email list!</h3>
-                <hr>
+            <div class="map center">
+                <iframe src="https://mapsengine.google.com/map/u/0/embed?mid=zMMhynwKgP-c.kxhwnRRq55Ok" width="800" height="350"></iframe>
             </div>
+            <hr>
+            <div class="row center">
+                <h3 class="home-text">Sign up for our email list!</h3>
+                <div class="col-xs-6">
+                <div class="pull-right">
+                    <input type="text" name="email" id="" placeholder="email" class="form-control rounded"/>
+                </div>
+                </div>
+                <div class="col-xs-6">
+                <div class="pull-left">
+                    <button type="submit" class="btn btn-primary btn-primary-custom">SEND</button>
+                </div>
+                </div>
+            </div>
+            <hr>
         </div>
     </div>
 </div>
 <div class="container">
-    <div class="container-3">
-        <div class="row-color">
-            <h1>Questions?</h1>
-        </div>
-        <div class="col-md-6 pull-left">
-            <form action="" class="form-group">
-                <input type="text" name="contact_name" class="form-control form-custom" id="input1"
-                       placeholder="Name"><br/>
-                <input type="email" name="contact_email" class="form-control form-custom" id="input2"
-                       placeholder="Email Address"><br/>
-                <input type="phone" name="contact_phone" class="form-control form-custom" id="input3"
-                       placeholder="Phone Number"><br/>
-                <textarea name="contact_message" class="form-control form-custom" rows="6" id="input4"
-                          placeholder="Message"></textarea><br/>
+<div class="inblock">
+    <div class="row">
+        <div class="col-md-6">
+            <h1 class="row-color">Questions?</h1>
 
-                <div>
-                    <button type="submit" class="btn btn-primary btn-primary-custom">SEND</button>
-                </div>
+            <form action="" class="form-group">
+                <input type="text" name="contact_name" class="form-control form-custom" id="input1" placeholder="Name"><br/>
+                <input type="email" name="contact_email" class="form-control form-custom" id="input2" placeholder="Email Address"><br/>
+                <input type="tel" name="contact_phone" class="form-control form-custom" id="input3" placeholder="Phone Number"><br/>
+                <textarea name="contact_message" class="form-control form-custom" rows="6" id="input4" placeholder="Message"></textarea><br/>
+                <button type="submit" class="btn btn-primary btn-primary-custom">SEND</button>
             </form>
         </div>
-        <div class="col-md-6 pull-right">
-            <img class="img-responsive"
-                 src="http://placehold.it/700x450/ffffff/cccccc">
+        <div class="col-md-6">
+            <img class="img-responsive dropme" src="http://placekitten.com/700/450">
         </div>
     </div>
+</div>
 </div>
