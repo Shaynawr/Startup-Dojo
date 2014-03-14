@@ -228,7 +228,6 @@ body {
 
 .container-carousel2 {
     background: #3EA99F;
-    padding: 35px;
     min-height: 480px;
     margin-top: 80px;
 }
@@ -407,6 +406,7 @@ color: whitesmoke;
 .vertical-hr{
     border-left: 1px solid#F04622;
     padding: 0px 0px;
+    min-height: 55px;
 }
 .hideme{
     color: #f5f5f5;
