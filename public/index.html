@@ -21,7 +21,7 @@
     <body>
 
 
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<!--        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <div class="nav-container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse"
@@ -31,31 +31,32 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <!--You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
-                </div>
+                    &lt;!&ndash;You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) &ndash;&gt;
+                </div>-->
 
 
                 <!--Collect the nav links, forms, and other content for toggling -->
-                <ul class="nav navbar-nav navbar-fixed-top">
-                    <ul class="nav navbar-nav">
+                <div class="container">
+                    <div class="row">
+                        <ul class="nav navbar-nav navbar-fixed-top mainmenu center">
+                            <li class="col-sm-1"></li>
+                            <li class="col-sm-2"><a href="#about">About Us</a></li>
+                            <li class="col-sm-2 vertical-hr"><a href="#property-information">Property Info</a></li>
+                            <li class="col-sm-2 vertical-hr hideme"><div class="triangle"></div>SD</li>
+                            <li class="col-sm-2 vertical-hr"><a href="#blog">Blog</a></li>
+                            <li class="col-sm-2 vertical-hr"><a href="#contact">Contact</a></li>
+                            <li class="col-sm-1"></li>
+                        </ul>
+                    </div>
 
-                        <li><a href="#about">About Us</a>
-                        </li>
-                        <li><a href="#property-information">Property Info</a>
-                        </li>
-                        <li><a href="#home">Startup Dojo</a>
-                        </li>
-                        <li><a href="#blog">Blog</a>
-                        </li>
-                        <li><a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </ul>
+                    <a href="#home" class="center"><img src="images/startup_logo.png" class="overlay center" alt=""/></a>
+                </div>
+
 
                 <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container -->
-        </nav>
+<!--            </div>
+            &lt;!&ndash; /.container &ndash;&gt;
+        </nav>-->
 
 
         <div ng-view></div>
