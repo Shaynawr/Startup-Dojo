@@ -28,16 +28,15 @@ var portfolioApp = angular.module('portfolioApp', [
             $rootScope.title = baseTitle + current.$$route.title;
         });
     }]);
+
+// When the DOM is ready, run this function
 $(document).ready(function() {
   //Set the carousel options
   $('#quote-carousel').carousel({
     pause: true,
-    interval: 2000
+    interval: 4000
   });
 });
-
-
-
 
 
 

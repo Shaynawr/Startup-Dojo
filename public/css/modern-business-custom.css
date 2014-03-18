@@ -447,6 +447,23 @@ a{
 .rounded{
     border-radius: 5px;
 }
+.rounded-footer{
+    border-radius: 5px;
+    border-color: #ffffff;
+    background: transparent;
+    color: black;
+    }
+.btn-footer-custom {
+    color: #ffffff;
+    background-color: transparent;
+    border-color: #FF0000;
+    border-radius: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: large;
+    active-color:#F04622;
+}
+
 .footermenu{
     color:white;
     text-decoration: none;
