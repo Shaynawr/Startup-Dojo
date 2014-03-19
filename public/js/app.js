@@ -17,7 +17,7 @@ var portfolioApp = angular.module('portfolioApp', [
             templateUrl: 'partials/property-information.tpl.html',
             controller: 'PropertyInformationController',
             title: 'Property Information Page',
-            contactform:'partials/contact-form.html'
+            contactform: 'partials/contact-form.html'
         });
         $routeProvider.when('/blog', {templateUrl: 'partials/blog.tpl.html', controller: 'BlogController', title: 'Blog Page'});
 
@@ -28,15 +28,5 @@ var portfolioApp = angular.module('portfolioApp', [
             $rootScope.title = baseTitle + current.$$route.title;
         });
     }]);
-
-// When the DOM is ready, run this function
-$(document).ready(function() {
-  //Set the carousel options
-  $('#quote-carousel').carousel({
-    pause: true,
-    interval: 4000
-  });
-});
-
 
 

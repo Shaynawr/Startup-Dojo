@@ -78,53 +78,6 @@ opacity: .9;
     margin: 15px;
     margin-left: 50px;
 }
-
-.tabs {
-    position: relative;
-    min-height: 200px;
-    clear: both;
-    margin-top: 25px;
-    margin-bottom: 200px;
-    text-align: center;
-}
-
-.tab {
-    float: left;
-}
-
-.tab label {
-    background: #808080;
-    padding: 10px;
-    margin-left: -1;
-    position: relative;
-    left: 500px;
-    color: white;
-}
-
-.tab [type=radio] {
-    display: none
-}
-
-.content {
-    position: absolute;
-    top: 28px;
-    margin-left: 50%;
-    background: #ffffff;
-    margin-right: 50%;
-    bottom: 50%;
-    padding: 25px;
-}
-
-[type=radio]:checked ~ label {
-    background:#F04622;
-    border-bottom: 1px solid white;
-    z-index: 2;
-}
-
-[type=radio]:checked ~ label ~ .content {
-    z-index: 1;
-}
-
 .container-3 {
     text-align: left;
     display: inline-block;
@@ -147,7 +100,6 @@ opacity: .9;
     float: right;
     width: 400px;
     height: 20px;
-    /*display: inline-block;*/
 }
 
 /*navbar*/
@@ -160,7 +112,6 @@ opacity: .9;
     padding-left: 70px;
     padding-right: 30px;
     text-align: center;
-
 }
 
 body {
@@ -178,20 +129,13 @@ body {
 .myCarousel .nav a {
     border-radius: 0px;
 }
-
-.navbar-inverse a:hover {
-    color:#F04622;
-    text-shadow: 0 1px 1px #f74444;
-}
-
-.navbar-inverse li:hover {
-    background: #e50a0a top left repeat;
-}
-
 .fa-phone {
     color:#F04622;
 }
 .red{
+    color: #F04622;
+}
+.fa-map-marker{
     color: #F04622;
 }
 
@@ -451,7 +395,7 @@ a{
     border-radius: 5px;
     border-color: #ffffff;
     background: transparent;
-    color: black;
+    color: #ffffff;
     }
 .btn-footer-custom {
     color: #ffffff;
@@ -467,6 +411,9 @@ a{
 .footermenu{
     color:white;
     text-decoration: none;
+}
+.footermenu:hover{
+    color: #50AC98;
 }
 .no-deco{
     list-style: none;
