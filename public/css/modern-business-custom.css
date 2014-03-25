@@ -285,6 +285,7 @@ body {
     width: 50%;
 }
 
+
 .home-text {
     color: #3EA99F;
     text-align: center;
@@ -297,7 +298,6 @@ background: url(http://placekitten.com/1920/400) center center no-repeat;
 
 .bebasneue{
     font-family: 'BebasNeue', sans-serif;
-    /*font-family: 'bebas_neueregular', sans-serif;*/
 }
 .mainh1{
     font-size: 70pt;
@@ -321,7 +321,22 @@ background: url(http://placekitten.com/1920/400) center center no-repeat;
     margin-left: auto;
     margin-right: auto;
 }
-small {
+.center-home{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+.center-custom{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #232222;
+    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+}
+.small {
 font-size: 15pt;
 font-weight: bold;
 color: whitesmoke;
@@ -515,4 +530,7 @@ min-width: 100px;
 }
 .huge-text{
     font-size: 40pt;
+}
+social-media:hover{
+    color:yellow;
 }

@@ -13,50 +13,10 @@ angular.module('portfolioApp.controllers', [])
     .controller('AboutController', ['$scope', function ($scope) {
 
     }])
-    .controller('ContactController', ['$scope','$resource', function ($scope,$resource) {
-
-        var Mail = $resource('http://api.postmarkapp.com/email',
-            {
-                charge: {method: 'POST', params: {}, headers: {'Access-Control-Allow-Origin': '*'}}
-            });
-
-        var testmail = {
-            "From": "sender@example.com",
-            "To": "receiver@example.com",
-            "Cc": "copied@example.com",
-            "Bcc": "blank-copied@example.com",
-            "Subject": "Test",
-            "Tag": "Invitation",
-            "HtmlBody": "<b>Hello</b>",
-            "TextBody": "Hello",
-            "ReplyTo": "reply@example.com",
-            "Headers": [
-                { "Name": "CUSTOM-HEADER", "Value": "value" }
-            ]
-        }
-
-        var newMail = new Mail({
-            "From": "sender@example.com",
-            "To": "receiver@example.com",
-            "Cc": "copied@example.com",
-            "Bcc": "blank-copied@example.com",
-            "Subject": "Test",
-            "Tag": "Invitation",
-            "HtmlBody": "<b>Hello</b>",
-            "TextBody": "Hello",
-            "ReplyTo": "reply@example.com",
-            "Headers": [
-                { "Name": "CUSTOM-HEADER", "Value": "value" }
-            ]
-        });
-
-//        newMail.name = "Mike Smith";
-        newMail.$save();
-
+    .controller('ContactController', ['$scope', function ($scope) {
     }])
 
-.
-controller('BlogController', ['$scope', function ($scope) {
+.controller('BlogController', ['$scope', function ($scope) {
 
 }])
     .controller('PropertyInformationController', ['$scope', function ($scope) {
