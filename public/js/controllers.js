@@ -16,13 +16,11 @@ angular.module('portfolioApp.controllers', [])
     .controller('ContactController', ['$scope', function ($scope) {
     }])
 
+
 .controller('BlogController', ['$scope', function ($scope) {
 
 }])
     .controller('PropertyInformationController', ['$scope', function ($scope) {
 
     }]);
-
-
-
 

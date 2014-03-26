@@ -17,6 +17,7 @@ footer {
 
 .footer-color {
     color: #3EA99F;
+    font-family: "helvetica neue";
 }
 
 
@@ -29,6 +30,7 @@ footer {
     padding-right: 20px;
     font-size: large;
     active-color:#F04622;
+    font-family: "helvetica neue";
 }
 .section, .section-colored {
 padding: 80px 0;
@@ -108,6 +110,7 @@ opacity: .9;
     border-color: #FFFFFF;
 }
 
+
 .navbar-nav {
     padding-left: 70px;
     padding-right: 30px;
@@ -131,12 +134,14 @@ body {
 }
 .fa-phone {
     color:#F04622;
+    font-size: 20px;
 }
 .red{
     color: #F04622;
 }
 .fa-map-marker{
     color: #F04622;
+    font-size: 20px;
 }
 
 .fa-envelope {
@@ -151,9 +156,11 @@ body {
     color:#F04622;
 }
 
+
 .panel-heading {
     color: #3EA99F;
     font-size: 25px;
+
 }
 
 #container {
@@ -311,7 +318,7 @@ background: url(http://placekitten.com/1920/400) center center no-repeat;
 }
 .squared:hover{
     border-radius: 0;
-    color:#F04622;
+    color:#50AC98;
     font-size: 20pt;
     width: 200px;
 }
@@ -426,6 +433,8 @@ a{
 .footermenu{
     color:white;
     text-decoration: none;
+    font-size: 16px;
+    font-family: "helvetica neue";
 }
 .footermenu:hover{
     color: #50AC98;
@@ -433,6 +442,7 @@ a{
 .no-deco{
     list-style: none;
     margin-top: 10px;
+
 }
 .dropme{
     margin-top: 70px;
@@ -446,6 +456,8 @@ a{
 }
 .dropme-little{
     margin-top: 50px;
+    font-family: "helvetica neue";
+
 }
 .dropme-tiny{
     margin-top: 5px;
@@ -460,6 +472,7 @@ font-size: 1.5em;
 padding-right: .25em;
 position: relative;
 top: .1em;
+font-family: "helvetica neue"
 }
 .greenie{
     color: #666666;
@@ -468,6 +481,7 @@ top: .1em;
 }
 .whitey li{
     font-size: 18pt;
+    font-family: "helvetica neue;
 }
 .highlight .panel{
     margin-top: -20px;
@@ -533,4 +547,14 @@ min-width: 100px;
 }
 social-media:hover{
     color:yellow;
+}
+.contact-info{
+    font-size: 16px;
+    font-family: "helvetica neue";
+}
+.top-info-box{
+    font-family: "helvetica neue";
+}
+.about-info{
+    font-family: "helvetica neue";
 }
