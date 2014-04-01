@@ -249,7 +249,7 @@ body {
 
 .item blockquote p:before {
     content: "\f10d";
-    font-family: 'Fontawesome';
+    font-family: HelveticaNeue-Light;
     float: left;
     margin-right: 10px;
 }
@@ -302,7 +302,7 @@ body {
     color: white;
     border-color: white;
     width: 50%;
-    font-family: HelveticaNeue-Light;
+    font-family: "HelveticaNeue-Light";
 }
 
 .home-text {
@@ -350,7 +350,6 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    font-family: "HelveticaNeue-Light;
 }
 
 .center-custom {
@@ -638,5 +637,8 @@ social-media:hover {
     font-family: "HelveticaNeue-Light";
     font-size: 17px
 }
+.font-light{
+    font-family: "HelveticaNeue-Light";
 
+}
 
