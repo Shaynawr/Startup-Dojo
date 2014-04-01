@@ -359,6 +359,7 @@ body {
     margin-right: auto;
     color: #232222;
     font-family: "HelveticaNeue-Light;
+    font-weight: 200;
 }
 
 .small {
@@ -502,6 +503,7 @@ a {
 .dropme-little {
     margin-top: 50px;
     font-family: "HelveticaNeue-Light";
+    font-weight: 200;
 
 }
 
@@ -640,5 +642,12 @@ social-media:hover {
 .font-light{
     font-family: "HelveticaNeue-Light";
 
+}
+.font-play{
+    font-family: "Trebuchet MS"
+    font-size: 60px;
+}
+.font-big{
+    font-family: "Trebuchet MS";
 }
 
