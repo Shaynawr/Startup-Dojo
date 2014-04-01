@@ -1,10 +1,7 @@
-@font-face{
-	font-family: 'BebasNeue';
-	src: url('bebasneue_regular_macroman/BebasNeue-webfont.eot');
-	src: url('bebasneue_regular_macroman/BebasNeue-webfont.eot?iefix') format('eot'),
-	     url('bebasneue_regular_macroman/BebasNeue-webfont.woff') format('woff'),
-	     url('bebasneue_regular_macroman/BebasNeue-webfont.ttf') format('truetype'),
-	     url('bebasneue_regular_macroman/BebasNeue-webfont.svg#webfont') format('svg');
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('bebasneue_regular_macroman/BebasNeue-webfont.eot');
+    src: url('bebasneue_regular_macroman/BebasNeue-webfont.eot?iefix') format('eot'), url('bebasneue_regular_macroman/BebasNeue-webfont.woff') format('woff'), url('bebasneue_regular_macroman/BebasNeue-webfont.ttf') format('truetype'), url('bebasneue_regular_macroman/BebasNeue-webfont.svg#webfont') format('svg');
 }
 
 /* Footer Styles */
@@ -20,28 +17,29 @@ footer {
     font-family: "helvetica neue";
 }
 
-
 .btn-primary-custom {
-    color:#F04622;
+    color: #F04622;
     background-color: #ffffff;
     border-color: #FF0000;
     border-radius: 0;
     padding-left: 20px;
     padding-right: 20px;
     font-size: large;
-    active-color:#F04622;
+    active-color: #F04622;
     font-family: "helvetica neue";
 }
+
 .section, .section-colored {
-padding: 80px 0;
+    padding: 80px 0;
 }
+
 .btn-primary:hover {
-    background:#F04622;
+    background: #F04622;
     border: white;
 }
 
 [type=submit]:checked ~ label ~ .btn-primary {
-    color:#F04622;
+    color: #F04622;
 }
 
 .row-color {
@@ -65,8 +63,8 @@ padding: 80px 0;
 
 .container-2 {
     box-shadow: -15px 0px 0px #3EA99F;
-background-color: #F1F2F1;
-opacity: .9;
+    background-color: #F1F2F1;
+    opacity: .9;
 
 }
 
@@ -80,6 +78,7 @@ opacity: .9;
     margin: 15px;
     margin-left: 50px;
 }
+
 .container-3 {
     text-align: left;
     display: inline-block;
@@ -88,6 +87,7 @@ opacity: .9;
     width: 765px;
     height: 40;
 }
+
 .inblock {
     display: inline-block;
 }
@@ -110,7 +110,6 @@ opacity: .9;
     border-color: #FFFFFF;
 }
 
-
 .navbar-nav {
     padding-left: 70px;
     padding-right: 30px;
@@ -132,30 +131,32 @@ body {
 .myCarousel .nav a {
     border-radius: 0px;
 }
+
 .fa-phone {
-    color:#F04622;
+    color: #F04622;
     font-size: 20px;
 }
-.red{
+
+.red {
     color: #F04622;
 }
-.fa-map-marker{
+
+.fa-map-marker {
     color: #F04622;
     font-size: 20px;
 }
 
 .fa-envelope {
-    color:#F04622;
+    color: #F04622;
 }
 
 .panel-title {
-    color:#F04622;
+    color: #F04622;
 }
 
 .main-list-item {
-    color:#F04622;
+    color: #F04622;
 }
-
 
 .panel-heading {
     color: #3EA99F;
@@ -182,6 +183,7 @@ body {
     min-height: 480px;
     margin-top: 80px;
 }
+
 .container-carousel-red {
     background: #F04622;
     padding: 35px;
@@ -194,6 +196,7 @@ body {
     padding: 0 10px 30px 10px;
     margin-top: 30px 0px 0px;
 }
+
 /* Control buttons  */
 #quote-carousel .carousel-control {
     background: none;
@@ -292,50 +295,55 @@ body {
     width: 50%;
 }
 
-
 .home-text {
     color: #3EA99F;
     text-align: center;
 }
 
 .business-header {
-background: url(http://placekitten.com/1920/400) center center no-repeat;
-    border-bottom: 15px solid#4bac97;
+    background: url(http://placekitten.com/1920/400) center center no-repeat;
+    border-bottom: 15px solid #4bac97;
 }
 
-.bebasneue{
+.bebasneue {
     font-family: 'BebasNeue', sans-serif;
 }
-.mainh1{
+
+.mainh1 {
     font-size: 70pt;
     /*font-family: 'bebas_neueregular', sans-serif;*/
 }
-.squared{
+
+.squared {
     border-radius: 0;
     color: white;
     font-size: 20pt;
     width: 200px;
 }
-.squared:hover{
+
+.squared:hover {
     border-radius: 0;
-    color:#50AC98;
+    color: #50AC98;
     font-size: 20pt;
     width: 200px;
 }
-.center{
+
+.center {
     display: block;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
-.center-home{
+
+.center-home {
     display: block;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
-.center-custom{
+
+.center-custom {
     display: block;
     text-align: center;
     margin-left: auto;
@@ -343,16 +351,19 @@ background: url(http://placekitten.com/1920/400) center center no-repeat;
     color: #232222;
     font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
 }
+
 .small {
-font-size: 15pt;
-font-weight: bold;
-color: whitesmoke;
+    font-size: 15pt;
+    font-weight: bold;
+    color: whitesmoke;
 }
-.mainmenu{
+
+.mainmenu {
     background-color: #f5f5f5;
-    position:fixed;
-    top:0px;
+    position: fixed;
+    top: 0px;
 }
+
 .clearfix:after,
 .container:after,
 .container-fluid:after,
@@ -367,132 +378,158 @@ color: whitesmoke;
 .pager:after,
 .panel-body:after,
 .modal-footer:after {
-  clear: none;
+    clear: none;
 }
-.vertical-hr{
-    border-left: 1px solid#F04622;
+
+.vertical-hr {
+    border-left: 1px solid #F04622;
     padding: 0px 0px;
     min-height: 55px;
 }
-.hideme{
+
+.hideme {
     color: #f5f5f5;
     display: none;
 }
-a{
+
+a {
     color: #50AC98;
     font-family: 'BebasNeue', sans-serif;
     font-size: 16pt;
 }
-#icon-info{
+
+#icon-info {
     background-image: url("../images/icon-info.png");
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
     height: 100px;
     width: 100px;
 }
-#icon-about{
+
+#icon-about {
     background-image: url("../images/icon-about.png");
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
     height: 100px;
     width: 100px;
 }
-#icon-contact{
+
+#icon-contact {
     background-image: url("../images/icon-contact.png");
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
     height: 100px;
     width: 100px;
 }
-.blockquote{
+
+.blockquote {
     font-size: 17.5px;
 }
-.map{
+
+.map {
     margin-top: 80px;
 }
-.rounded{
+
+.rounded {
     border-radius: 5px;
 }
-.rounded-footer{
+
+.rounded-footer {
     border-radius: 5px;
     border-color: #ffffff;
     background: transparent;
     color: #ffffff;
-    }
+}
+
 .btn-footer-custom {
     color: #ffffff;
     background-color: transparent;
-    border-color: #FF0000;
+    border-color: #F04622;
     border-radius: 0;
     padding-left: 20px;
     padding-right: 20px;
     font-size: large;
-    active-color:#F04622;
+    active-color: #F04622;
 }
 
-.footermenu{
-    color:white;
+.footermenu {
+    color: white;
     text-decoration: none;
     font-size: 16px;
     font-family: "helvetica neue";
 }
-.footermenu:hover{
+
+.footermenu:hover {
     color: #50AC98;
 }
-.no-deco{
+
+.no-deco {
     list-style: none;
     margin-top: 10px;
 
 }
-.dropme{
+
+.dropme {
     margin-top: 70px;
 }
-.mini-image{
+.name{
+    color: #F04622;
+}
+
+.mini-image {
     width: 100px;
     height: 100px;
 }
-.nav-hor li{
-    display:inline;
+
+.nav-hor li {
+    display: inline;
 }
-.dropme-little{
+
+.dropme-little {
     margin-top: 50px;
     font-family: "helvetica neue";
 
 }
-.dropme-tiny{
+
+.dropme-tiny {
     margin-top: 5px;
 }
-.bumpUp{
+
+.bumpUp {
     margin-top: -90px;
 }
+
 .greenie:before {
-color: #42AF99;
-content: "\2022";
-font-size: 1.5em;
-padding-right: .25em;
-position: relative;
-top: .1em;
-font-family: "helvetica neue"
+    color: #42AF99;
+    content: "\2022";
+    font-size: 1.5em;
+    padding-right: .25em;
+    position: relative;
+    top: .1em;
+    font-family: "helvetica neue"
 }
-.greenie{
+
+.greenie {
     color: #666666;
     font-size: 18pt;
     margin-bottom: -10px;
 }
-.whitey li{
+
+.whitey li {
     font-size: 18pt;
     font-family: "helvetica neue;
 }
-.highlight .panel{
+
+.highlight .panel {
     margin-top: -20px;
-    border-top: 12px solid#F04622;
+    border-top: 12px solid #F04622;
 }
 
-.highlight .panel .mini-triangle{
+.highlight .panel .mini-triangle {
     position: absolute;
-    top:-9px;
+    top: -9px;
     left: 48%;
-    z-index:9990;
+    z-index: 9990;
     width: 0;
     height: 0;
     border-top: 15px solid #F04622;
@@ -500,61 +537,73 @@ font-family: "helvetica neue"
     border-right: 15px solid transparent;
 }
 
-.panel{
+.panel {
     min-height: 355px;
 }
+
 @media (min-width: 900px) {
-#menulogo{
-    background-image: url("../images/startup_logo.png");
-    background-repeat: no-repeat;
-    z-index:9999;
-min-height: 100px;
-min-width: 100px;
+    #menulogo {
+        background-image: url("../images/startup_logo.png");
+        background-repeat: no-repeat;
+        z-index: 9999;
+        min-height: 100px;
+        min-width: 100px;
+    }
+
+    .triangle {
+        top: 0px;
+        left: -25px;
+        /*background-color:rgba(0, 0, 0, 0.85);*/
+        z-index: 9997;
+        width: 100px;
+        height: 100px;
+        border-top: 80px solid #f5f5f5;
+        border-left: 130px solid transparent;
+        border-right: 130px solid transparent;
+    }
 }
 
-.triangle{
-    top:0px;
-    left: -25px;
-    /*background-color:rgba(0, 0, 0, 0.85);*/
-    z-index:9997;
-    width: 100px;
-    height: 100px;
-    border-top: 80px solid #f5f5f5;
-    border-left: 130px solid transparent;
-    border-right: 130px solid transparent;
-}
-}
-#menulogo2{
+#menulogo2 {
     /*background-image: url("../images/startup_logo-small.png");*/
     background-repeat: no-repeat;
-    z-index:9998;
-min-height: 100px;
-min-width: 100px;
+    z-index: 9998;
+    min-height: 100px;
+    min-width: 100px;
 }
+
 .overlay {
-    position:absolute;
+    position: absolute;
     top: 5px;
     left: 48.5%;
     /*background-color:rgba(0, 0, 0, 0.85);*/
-    z-index:9999;
+    z-index: 9999;
     /*color: red;*/
 }
-.white{
+
+.white {
     color: white;
 }
-.huge-text{
+
+.huge-text {
     font-size: 40pt;
 }
-social-media:hover{
-    color:yellow;
+
+social-media:hover {
+    color: yellow;
 }
-.contact-info{
+
+.contact-info {
+
     font-size: 16px;
     font-family: "helvetica neue";
 }
-.top-info-box{
+
+.top-info-box {
     font-family: "helvetica neue";
 }
-.about-info{
+
+.about-info {
     font-family: "helvetica neue";
 }
+
+
