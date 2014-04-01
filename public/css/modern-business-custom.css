@@ -14,7 +14,7 @@ footer {
 
 .footer-color {
     color: #3EA99F;
-    font-family: "helvetica neue";
+    font-family: "HelveticaNeue-Light";
 }
 
 .btn-primary-custom {
@@ -26,7 +26,7 @@ footer {
     padding-right: 20px;
     font-size: large;
     active-color: #F04622;
-    font-family: "helvetica neue";
+    font-family: "HelveticaNeue-Light";
 }
 .section, .section-colored {
     padding: 80px 0;
@@ -35,6 +35,7 @@ footer {
 .btn-primary:hover {
     background: #F04622;
     border: white;
+    font-family: HelveticaNeue-Light;
 }
 
 [type=submit]:checked ~ label ~ .btn-primary {
@@ -93,7 +94,7 @@ footer {
 
 .form-custom {
     color: darkgray;
-    border-color: darkgrey;
+    border-color: darkgray;
     border-radius: 0;
 }
 
@@ -107,12 +108,14 @@ footer {
 .navbar-inverse {
     background-color: white;
     border-color: #FFFFFF;
+    font-family: "HelveticaNeue-Light";
 }
 
 .navbar-nav {
     padding-left: 70px;
     padding-right: 30px;
     text-align: center;
+    font-family: "HelveticaNeue-Light";
 }
 body {
     margin-top: 0px;
@@ -138,6 +141,9 @@ body {
 .red {
     color: #F04622;
 }
+.grey{
+    color:#232222;
+}
 
 .fa-map-marker {
     color: #F04622;
@@ -152,9 +158,14 @@ body {
     color: #F04622;
 }
 
-.main-list-item {
+.main-list-item{
     color: #F04622;
 }
+.group-item{
+    color: #232222;
+    font-family: HelveticaNeue-Light;
+}
+
 
 .panel-heading {
     color: #3EA99F;
@@ -291,6 +302,7 @@ body {
     color: white;
     border-color: white;
     width: 50%;
+    font-family: HelveticaNeue-Light;
 }
 
 .home-text {
@@ -338,7 +350,7 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeue-Light;
 }
 
 .center-custom {
@@ -347,7 +359,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     color: #232222;
-    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeue-Light;
 }
 
 .small {
@@ -455,13 +467,14 @@ a {
     padding-right: 20px;
     font-size: large;
     active-color: #F04622;
+    font-family: HelveticaNeue-Light;
 }
 
 .footermenu {
     color: white;
     text-decoration: none;
     font-size: 16px;
-    font-family: "helvetica neue";
+    font-family: "HelveticaNeue-Light";
 }
 
 .footermenu:hover {
@@ -489,7 +502,7 @@ a {
 
 .dropme-little {
     margin-top: 50px;
-    font-family: "helvetica neue";
+    font-family: "HelveticaNeue-Light";
 
 }
 
@@ -508,18 +521,19 @@ a {
     padding-right: .25em;
     position: relative;
     top: .1em;
-    font-family: "helvetica neue"
+    font-family: "HelveticaNeue-Light"
 }
 
 .greenie {
-    color: #666666;
+    color:#232222;
     font-size: 18pt;
     margin-bottom: -10px;
+    font-family: "HelveticaNeue-Light";
 }
 
 .whitey li {
     font-size: 18pt;
-    font-family: "helvetica neue;
+    font-family: "HelveticaNeue-Light;
 }
 
 .highlight .panel {
@@ -597,30 +611,32 @@ social-media:hover {
 .contact-info {
 
     font-size: 16px;
-    font-family: "helvetica neue";
+    font-family: "HelveticaNeue-Light";
 }
 
 .top-info-box {
-    font-family: "helvetica neue";
+    font-family: "HelveticaNeue-Light";
 }
 
 .about-info {
-    font-family: "helvetica neue";
+    font-family: "HelveticaNeue-Light";
 }
 .about-info-2 {
-    font-family: "helvetica neue";
+    font-family: "HelveticaNeue-Light";
     float: right;
     width: 435px;
     height: 20px;
 
 }
 .about-info-3 {
-    font-family: "helvetica neue";
+    font-family: "HelveticaNeue-Light";
     float: left;
     width: 435px;
     height: 20px;
-
-
+}
+.nav-font{
+    font-family: "HelveticaNeue-Light";
+    font-size: 17px
 }
 
 
