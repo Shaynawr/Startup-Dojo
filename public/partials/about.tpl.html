@@ -14,164 +14,315 @@
         <div class="col-sm-6 center">
             <a href='#tab1'><img src="images/we-do.png" alt="" class=""/></a>
         </div>
-    </div>
-    <div class="col-sm-6 center">
-        <a href='#tab2'><img src="images/we-are.png" alt="" class=""/></a>
+
+        <div class="col-sm-6 center">
+            <a href='#tab2'><img src="images/we-are.png" alt="" class=""/></a>
+        </div>
     </div>
 </ul>
 
 <div id='tab1'>
     <p>
-<div class="dropme-little">
-    <div class="container">
-        <img src="images/map.png" alt="" class="img-responsive center dropme"/>
 
-        <h3 class="dropme-little center grey">The Startup Dojo has been serving <br/> the Utah community for 4 years</h3>
-    </div>
-
-
-    <div class="container-carousel dropme white">
+    <div class="dropme-little">
         <div class="container">
+            <img src="images/map.png" alt="" class="img-responsive center dropme"/>
 
-            <h3 class="center about-info ">Since inception we have provided space <br/> to all types of startups throughout Utah
+            <h3 class="dropme-little center grey">The Startup Dojo has been serving <br/> the Utah community for 4 years
             </h3>
-            <ul class="dropme-little whitey">
-                <div class="col-sm-3 col-sm-offset-3">
-                    <li>Ferevo</li>
-                    <li>Speckle</li>
-                    <li>Tilapiana</li>
-                    <li>Meal Drop</li>
-                    <li>App Raptor</li>
-                    <li>Coding Camp</li>
-                </div>
-                <div class="col-sm-5 col-sm-offset-1">
-                    <li>Sygif</li>
-                    <li>Kalood</li>
-                    <li>Crossies</li>
-                    <li>PingPlot</li>
-                    <li>Verisage</li>
-                    <li>One Shore</li>
-                </div>
-            </ul>
+        </div>
+
+
+        <div class="container-carousel dropme white">
+            <div class="container">
+
+                <h3 class="center about-info ">Since inception we have provided space <br/> to all types of startups
+                    throughout Utah
+                </h3>
+                <ul class="dropme-little whitey">
+                    <div class="col-sm-3 col-sm-offset-3">
+                        <li>Ferevo</li>
+                        <li>Speckle</li>
+                        <li>Tilapiana</li>
+                        <li>Meal Drop</li>
+                        <li>App Raptor</li>
+                        <li>Coding Camp</li>
+                    </div>
+                    <div class="col-sm-5 col-sm-offset-1">
+                        <li>Sygif</li>
+                        <li>Kalood</li>
+                        <li>Crossies</li>
+                        <li>PingPlot</li>
+                        <li>Verisage</li>
+                        <li>One Shore</li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container dropme">
+            <h3 class="center about-info grey">Whether your a one-man Freelancer or a small business <br/> ready to make
+                it big, We have
+                spacefor you.</h3>
+
+            <br/>
+            <br/>
+            <img src="images/big-small.png" alt="" class="img-responsive center"/>
+
+            <div class="col-xs-6">
+                <h4 class="center about-info-2 grey">A FREELANCER</h4>
+            </div>
+            <div class="col-xs-6">
+                <h4 class="center about-info-3 grey">A SMALL STARTUP</h4>
+            </div>
+        </div>
+
+        <div class="container-carousel-red dropme white">
+            <div class="container-large">
+                <h4 class="dropme-little center about-info font-light">So from one startup, to another</h4>
+
+                <h1 class="center huge-text about-info font-big">We can't wait <br/> to meet you!</h1>
+                <a href="#contact"> <input type="button" class="btn btn-other squared" value="INQUIRE"/></a>
+
+            </div>
         </div>
     </div>
 
-    <div class="container dropme">
-        <h3 class="center about-info grey">Whether your a one-man Freelancer or a small business <br/> ready to make it big, We have
-            spacefor you.</h3>
 
-        <br/>
-        <br/>
-        <img src="images/big-small.png" alt="" class="img-responsive center"/>
-
-        <div class="col-xs-6">
-            <h4 class="center about-info-2 grey">A FREELANCER</h4>
-        </div>
-        <div class="col-xs-6">
-            <h4 class="center about-info-3 grey">A SMALL STARTUP</h4>
-        </div>
-    </div>
-
-    <div class="container-carousel-red dropme white">
-        <div class="container-large">
-            <h4 class="dropme-little center about-info font-light">So from one startup, to another</h4>
-
-            <h1 class="center huge-text about-info font-big">We can't wait <br/> to meet you!</h1>
-            <a href="#contact"> <input type="button" class="btn btn-other squared" value="INQUIRE"/></a>
-
-        </div>
-    </div>
-</div>
+    <div ng-include src="contactform"></div>
 
 
-<div ng-include src="contactform"></div>
+    <div class="container">
+        <div class="dropme">
+            <h1 class="row-color font-big">Contact us</h1>
 
+            <div class="col-md-6 pull-left">
+                <div class="font-light">
+                    <form action="" class="form-group">
+                        <input type="text" name="contact_name" class="form-control form-custom" id="input1"
+                               placeholder="Name"><br/>
+                        <input type="email" name="contact_email" class="form-control form-custom" id="input2"
+                               placeholder="Email Address"><br/>
+                        <input type="phone" name="contact_phone" class="form-control form-custom" id="input3"
+                               placeholder="Phone Number"><br/>
+                        <textarea name="contact_message" class="form-control form-custom" rows="6" id="input4"
+                                  placeholder="Message"></textarea><br/>
 
-<div class="container">
-    <div class="dropme">
-        <h1 class="row-color font-big">Contact us</h1>
-
-        <div class="col-md-6 pull-left">
-            <div class="font-light">
-            <form action="" class="form-group">
-                <input type="text" name="contact_name" class="form-control form-custom" id="input1"
-                       placeholder="Name"><br/>
-                <input type="email" name="contact_email" class="form-control form-custom" id="input2"
-                       placeholder="Email Address"><br/>
-                <input type="phone" name="contact_phone" class="form-control form-custom" id="input3"
-                       placeholder="Phone Number"><br/>
-                <textarea name="contact_message" class="form-control form-custom" rows="6" id="input4"
-                          placeholder="Message"></textarea><br/>
-
-                <div>
-                    <button type="submit" class="btn btn-primary btn-primary-custom">SEND</button>
+                        <div>
+                            <button type="submit" class="btn btn-primary btn-primary-custom">SEND</button>
+                        </div>
+                    </form>
                 </div>
-            </form>
-                </div>
-        </div>
-        <div class="col-md-6 pull-right">
-            <img class="img-responsive" src="http://placekitten.com/700/450">
+            </div>
+            <div class="col-md-6 pull-right">
+                <img class="img-responsive" src="http://placekitten.com/700/450">
+            </div>
         </div>
     </div>
-</div></p>
+    </p>
 </div>
 
 
 <div id='tab2'>
-    <p><div class="dropme-little center">
-<img src="images/zaro.png" alt="" class="img-responsive center"/>
-<div class="red">
-<h3 class="dropme-little">MICHAEL ZARO</h3>
-</div>
-    <div class="font-light">
-    <p>FOUNDER</p>
+<!--<p>-->
 
-    <br>
-<p>I have long Eyelashes <br> and start businesses</p>
+<!-- Slider -->
+
+<div class="row">
+    <div class="span12" id="slider">
+        <div class="carousel slide" id="myCarousel">
+            <!-- Carousel items -->
+
+            <div class="carousel-inner">
+                <div class="active item" data-slide-number="0">
+                    <div class="dropme-little center">
+                        <img src="images/zaro.png">
+
+                        <div class="red">
+                            <h3>MICHAEL ZARO</h3>
+                        </div>
+                        <div class="font-light center">
+                            <p>FOUNDER</p>
+
+                            <br>
+
+                            <p>I have long Eyelashes <br> and start businesses</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="item" data-slide-number="1">
+                    <div class="dropme-little center">
+                        <img src="images/zaro.png">
+
+                        <div class="red">
+                            <h3>Another</h3>
+                        </div>
+                        <div class="font-light center">
+                            <p>FOUNDER</p>
+
+                            <br>
+
+                            <p>I have long Eyelashes <br> and start businesses</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="item" data-slide-number="2">
+                    <div class="dropme-little center">
+                        <img src="images/zaro.png">
+
+                        <div class="red">
+                            <h3>Blah</h3>
+                        </div>
+                        <div class="font-light center">
+                            <p>FOUNDER</p>
+
+                            <br>
+
+                            <p>I have long Eyelashes <br> and start businesses</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="item" data-slide-number="3">
+                    <div class="dropme-little center">
+                        <img src="images/zaro.png">
+
+                        <div class="red">
+                            <h3>tooo</h3>
+                        </div>
+                        <div class="font-light center">
+                            <p>FOUNDER</p>
+
+                            <br>
+
+                            <p>I have long Eyelashes <br> and start businesses</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="span2">
+                <ul class="dropme-little nav-hor" id="carousel-selector-0">
+                    <img src="images/zaro.png" alt="" class="mini-image"/>
+                </ul>
+            </div>
+
+            <div class="span2">
+                <ul class="dropme-little nav-hor" id="carousel-selector-1">
+                    <img src="images/zaro.png" alt="" class="mini-image"/>
+                </ul>
+            </div>
+
+
+            <div class="span2">
+                <ul class="dropme-little nav-hor" id="carousel-selector-2">
+                    <img src="images/zaro.png" alt="" class="mini-image"/>
+                </ul>
+            </div>
+
+            <div class="span2">
+                <ul class="dropme-little nav-hor" id="carousel-selector-3">
+                    <img src="images/zaro.png" alt="" class="mini-image"/>
+                </ul>
+            </div>
+
         </div>
-<ul class="dropme-little nav-hor">
-<li><img src="images/zaro.png" alt="" class="mini-image"/></li>
-<li><img src="images/zaro.png" alt="" class="mini-image"/></li>
-<li><img src="images/zaro.png" alt="" class="mini-image"/></li>
-<li><img src="images/zaro.png" alt="" class="mini-image"/></li>
-</ul>
-</div></p>
-</div>
 
-<script>
-    $('ul.tabs').each(function () {
-        // For each set of tabs, we want to keep track of
-        // which tab is active and it's associated content
-        var $active, $content, $links = $(this).find('a');
+    </div>
 
-        // If the location.hash matches one of the links, use that as the active tab.
-        // If no match is found, use the first link as the initial active tab.
-        $active = $($links.filter('[href="' + location.hash + '"]')[0] || $links[0]);
-        $active.addClass('active');
 
-        $content = $($active[0].hash);
+    <!--<p>-->
 
-        // Hide the remaining content
-        $links.not($active).each(function () {
-            $(this.hash).hide();
-        });
+    <!--<div class="dropme-little center">-->
+    <!--<img src="images/zaro.png" alt="" class="img-responsive center"/>-->
 
-        // Bind the click event handler
-        $(this).on('click', 'a', function (e) {
-            // Make the old tab inactive.
-            $active.removeClass('active');
-            $content.hide();
+    <!--<div class="red">-->
+    <!--<h3 class="dropme-little">MICHAEL ZARO</h3>-->
+    <!--</div>-->
+    <!--<div class="font-light">-->
+    <!--<p>FOUNDER</p>-->
 
-            // Update the variables with the new link and content
-            $active = $(this);
-            $content = $(this.hash);
+    <!--<br>-->
 
-            // Make the tab active.
+    <!--<p>I have long Eyelashes <br> and start businesses</p>-->
+    <!--</div>-->
+    <!--<ul class="dropme-little nav-hor">-->
+    <!--<li><img src="images/zaro.png" alt="" class="mini-image"/></li>-->
+    <!--<li><img src="images/zaro.png" alt="" class="mini-image"/></li>-->
+    <!--<li><img src="images/zaro.png" alt="" class="mini-image"/></li>-->
+    <!--<li><img src="images/zaro.png" alt="" class="mini-image"/></li>-->
+    <!--</ul>-->
+    <!--</div>-->
+    <!--</p>-->
+    <!--</div>-->
+
+    <script>
+        $('ul.tabs').each(function () {
+            // For each set of tabs, we want to keep track of
+            // which tab is active and it's associated content
+            var $active, $content, $links = $(this).find('a');
+
+            // If the location.hash matches one of the links, use that as the active tab.
+            // If no match is found, use the first link as the initial active tab.
+            $active = $($links.filter('[href="' + location.hash + '"]')[0] || $links[0]);
             $active.addClass('active');
-            $content.show();
 
-            // Prevent the anchor's default click action
-            e.preventDefault();
+            $content = $($active[0].hash);
+
+            // Hide the remaining content
+            $links.not($active).each(function () {
+                $(this.hash).hide();
+            });
+
+            // Bind the click event handler
+            $(this).on('click', 'a', function (e) {
+                // Make the old tab inactive.
+                $active.removeClass('active');
+                $content.hide();
+
+                // Update the variables with the new link and content
+                $active = $(this);
+                $content = $(this.hash);
+
+                // Make the tab active.
+                $active.addClass('active');
+                $content.show();
+
+                // Prevent the anchor's default click action
+                e.preventDefault();
+            });
+
+
+            $('#myCarousel').carousel({
+                interval: 2000
+            });
+
+            $('#carousel-text').html($('#slide-content-0').html());
+
+            //Handles the carousel thumbnails
+            $('[id^=carousel-selector-]').click(function () {
+                var id_selector = $(this).attr("id");
+                var id = id_selector.substr(id_selector.length);
+                var id = parseInt(id);
+                $('#myCarousel').carousel(id);
+            });
+
+
+            // When the carousel slides, auto update the text
+            $('#myCarousel').on('slid', function (e) {
+                var id = $('.item.active').data('slide-number');
+                $('#carousel-text').html($('#slide-content-' + id).html());
+            });
         });
-    });
-</script>
+    </script>
+</div>
+</div>
